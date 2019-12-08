@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BlG-XG-wH6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rx Collection View Controller-->
+        <scene sceneID="nhS-nK-C5O">
+            <objects>
+                <viewController id="BlG-XG-wH6" customClass="RxCollectionViewController" customModule="RxDataSourcesPinterest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHO-sG-1m2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mU3-9T-XwX">
+                                <rect key="frame" x="0.0" y="74" width="414" height="788"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="B9L-hE-Ddb" customClass="PinterestLayout" customModule="SampleRxSwift" customModuleProvider="target">
+                                    <size key="itemSize" width="185" height="300"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ON3-8N-7LZ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lge-dV-Zo7">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="30"/>
+                                        <state key="normal" title="add"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epo-Iv-XQg">
+                                        <rect key="frame" x="207" y="0.0" width="207" height="30"/>
+                                        <state key="normal" title="remove"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ON3-8N-7LZ" firstAttribute="top" secondItem="dgT-hO-4uK" secondAttribute="top" id="2mX-NH-s2Y"/>
+                            <constraint firstItem="mU3-9T-XwX" firstAttribute="top" secondItem="ON3-8N-7LZ" secondAttribute="bottom" id="X2c-SW-Tvt"/>
+                            <constraint firstItem="dgT-hO-4uK" firstAttribute="bottom" secondItem="mU3-9T-XwX" secondAttribute="bottom" id="aaY-oo-WZo"/>
+                            <constraint firstItem="ON3-8N-7LZ" firstAttribute="leading" secondItem="dgT-hO-4uK" secondAttribute="leading" id="juq-t5-Nv0"/>
+                            <constraint firstItem="dgT-hO-4uK" firstAttribute="trailing" secondItem="ON3-8N-7LZ" secondAttribute="trailing" id="obr-qh-HKj"/>
+                            <constraint firstItem="mU3-9T-XwX" firstAttribute="leading" secondItem="dgT-hO-4uK" secondAttribute="leading" id="q8m-KU-dCS"/>
+                            <constraint firstItem="dgT-hO-4uK" firstAttribute="trailing" secondItem="mU3-9T-XwX" secondAttribute="trailing" id="wSI-m1-3i9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dgT-hO-4uK"/>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="Lge-dV-Zo7" id="iYt-bc-Qc1"/>
+                        <outlet property="button2" destination="epo-Iv-XQg" id="MIT-IY-F0a"/>
+                        <outlet property="collectionView" destination="mU3-9T-XwX" id="xd1-yF-rxv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r4z-ED-GX4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152.80000000000001" y="-149.77511244377811"/>
+        </scene>
+    </scenes>
+</document>

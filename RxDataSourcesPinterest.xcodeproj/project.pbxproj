@@ -8,22 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		B65B5A5F239D36BD0065CCBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5A5E239D36BD0065CCBE /* AppDelegate.swift */; };
-		B65B5A61239D36BD0065CCBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5A60239D36BD0065CCBE /* SceneDelegate.swift */; };
-		B65B5A63239D36BD0065CCBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5A62239D36BD0065CCBE /* ViewController.swift */; };
-		B65B5A66239D36BD0065CCBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65B5A64239D36BD0065CCBE /* Main.storyboard */; };
 		B65B5A68239D36C00065CCBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65B5A67239D36C00065CCBE /* Assets.xcassets */; };
 		B65B5A6B239D36C00065CCBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65B5A69239D36C00065CCBE /* LaunchScreen.storyboard */; };
+		B65B5A74239D38C30065CCBE /* RxCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5A73239D38C30065CCBE /* RxCollectionViewController.swift */; };
+		B65B5A76239D38D10065CCBE /* RxCollectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65B5A75239D38D10065CCBE /* RxCollectionViewController.storyboard */; };
+		B65B5A7A239D39470065CCBE /* RxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5A78239D39470065CCBE /* RxCollectionViewCell.swift */; };
+		B65B5A7B239D39470065CCBE /* RxCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65B5A79239D39470065CCBE /* RxCollectionViewCell.xib */; };
+		B65B5A7D239D39560065CCBE /* RxCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5A7C239D39560065CCBE /* RxCollectionViewModel.swift */; };
+		B65B5A7F239D39870065CCBE /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5A7E239D39870065CCBE /* PinterestLayout.swift */; };
+		B65B5A81239D3B1F0065CCBE /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = B65B5A80239D3B1E0065CCBE /* Cartfile */; };
+		B65B5A8D239D3CA90065CCBE /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65B5A84239D3CA90065CCBE /* RxDataSources.framework */; };
+		B65B5A8F239D3CA90065CCBE /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65B5A86239D3CA90065CCBE /* Kingfisher.framework */; };
+		B65B5A90239D3CA90065CCBE /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65B5A87239D3CA90065CCBE /* RxSwift.framework */; };
+		B65B5A91239D3CA90065CCBE /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65B5A88239D3CA90065CCBE /* RxBlocking.framework */; };
+		B65B5A95239D3CA90065CCBE /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65B5A8C239D3CA90065CCBE /* RxCocoa.framework */; };
+		B65B5A97239D3CD40065CCBE /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65B5A96239D3CD40065CCBE /* Differentiator.framework */; };
+		B65B5A99239D49BD0065CCBE /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65B5A98239D49BD0065CCBE /* RxRelay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B65B5A5B239D36BD0065CCBE /* RxDataSourcesPinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxDataSourcesPinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65B5A5E239D36BD0065CCBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B65B5A60239D36BD0065CCBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B65B5A62239D36BD0065CCBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B65B5A65239D36BD0065CCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B65B5A67239D36C00065CCBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65B5A6A239D36C00065CCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B65B5A6C239D36C00065CCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65B5A73239D38C30065CCBE /* RxCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewController.swift; sourceTree = "<group>"; };
+		B65B5A75239D38D10065CCBE /* RxCollectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxCollectionViewController.storyboard; sourceTree = "<group>"; };
+		B65B5A78239D39470065CCBE /* RxCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewCell.swift; sourceTree = "<group>"; };
+		B65B5A79239D39470065CCBE /* RxCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCollectionViewCell.xib; sourceTree = "<group>"; };
+		B65B5A7C239D39560065CCBE /* RxCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewModel.swift; sourceTree = "<group>"; };
+		B65B5A7E239D39870065CCBE /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		B65B5A80239D3B1E0065CCBE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		B65B5A84239D3CA90065CCBE /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		B65B5A85239D3CA90065CCBE /* KingfisherSwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KingfisherSwiftUI.framework; path = Carthage/Build/iOS/KingfisherSwiftUI.framework; sourceTree = "<group>"; };
+		B65B5A86239D3CA90065CCBE /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		B65B5A87239D3CA90065CCBE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		B65B5A88239D3CA90065CCBE /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		B65B5A89239D3CA90065CCBE /* RxKingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxKingfisher.framework; path = Carthage/Build/iOS/RxKingfisher.framework; sourceTree = "<group>"; };
+		B65B5A8A239D3CA90065CCBE /* RxOptional.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxOptional.framework; path = Carthage/Build/iOS/RxOptional.framework; sourceTree = "<group>"; };
+		B65B5A8B239D3CA90065CCBE /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
+		B65B5A8C239D3CA90065CCBE /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		B65B5A96239D3CD40065CCBE /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
+		B65B5A98239D49BD0065CCBE /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65B5A99239D49BD0065CCBE /* RxRelay.framework in Frameworks */,
+				B65B5A97239D3CD40065CCBE /* Differentiator.framework in Frameworks */,
+				B65B5A8D239D3CA90065CCBE /* RxDataSources.framework in Frameworks */,
+				B65B5A8F239D3CA90065CCBE /* Kingfisher.framework in Frameworks */,
+				B65B5A90239D3CA90065CCBE /* RxSwift.framework in Frameworks */,
+				B65B5A91239D3CA90065CCBE /* RxBlocking.framework in Frameworks */,
+				B65B5A95239D3CA90065CCBE /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +73,10 @@
 		B65B5A52239D36BD0065CCBE = {
 			isa = PBXGroup;
 			children = (
+				B65B5A80239D3B1E0065CCBE /* Cartfile */,
 				B65B5A5D239D36BD0065CCBE /* RxDataSourcesPinterest */,
 				B65B5A5C239D36BD0065CCBE /* Products */,
+				B65B5A83239D3CA90065CCBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,68 @@
 		B65B5A5D239D36BD0065CCBE /* RxDataSourcesPinterest */ = {
 			isa = PBXGroup;
 			children = (
+				B65B5A9C239D4C920065CCBE /* CollectionViewController */,
 				B65B5A5E239D36BD0065CCBE /* AppDelegate.swift */,
-				B65B5A60239D36BD0065CCBE /* SceneDelegate.swift */,
-				B65B5A62239D36BD0065CCBE /* ViewController.swift */,
-				B65B5A64239D36BD0065CCBE /* Main.storyboard */,
 				B65B5A67239D36C00065CCBE /* Assets.xcassets */,
 				B65B5A69239D36C00065CCBE /* LaunchScreen.storyboard */,
 				B65B5A6C239D36C00065CCBE /* Info.plist */,
 			);
 			path = RxDataSourcesPinterest;
+			sourceTree = "<group>";
+		};
+		B65B5A72239D389B0065CCBE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5A73239D38C30065CCBE /* RxCollectionViewController.swift */,
+				B65B5A75239D38D10065CCBE /* RxCollectionViewController.storyboard */,
+				B65B5A7E239D39870065CCBE /* PinterestLayout.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B65B5A83239D3CA90065CCBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5A98239D49BD0065CCBE /* RxRelay.framework */,
+				B65B5A96239D3CD40065CCBE /* Differentiator.framework */,
+				B65B5A86239D3CA90065CCBE /* Kingfisher.framework */,
+				B65B5A85239D3CA90065CCBE /* KingfisherSwiftUI.framework */,
+				B65B5A8B239D3CA90065CCBE /* RxAtomic.framework */,
+				B65B5A88239D3CA90065CCBE /* RxBlocking.framework */,
+				B65B5A8C239D3CA90065CCBE /* RxCocoa.framework */,
+				B65B5A84239D3CA90065CCBE /* RxDataSources.framework */,
+				B65B5A89239D3CA90065CCBE /* RxKingfisher.framework */,
+				B65B5A8A239D3CA90065CCBE /* RxOptional.framework */,
+				B65B5A87239D3CA90065CCBE /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B65B5A9A239D4C700065CCBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5A78239D39470065CCBE /* RxCollectionViewCell.swift */,
+				B65B5A79239D39470065CCBE /* RxCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B65B5A9B239D4C7B0065CCBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5A7C239D39560065CCBE /* RxCollectionViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B65B5A9C239D4C920065CCBE /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5A9B239D4C7B0065CCBE /* Model */,
+				B65B5A9A239D4C700065CCBE /* View */,
+				B65B5A72239D389B0065CCBE /* ViewController */,
+			);
+			path = CollectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +165,7 @@
 				B65B5A57239D36BD0065CCBE /* Sources */,
 				B65B5A58239D36BD0065CCBE /* Frameworks */,
 				B65B5A59239D36BD0065CCBE /* Resources */,
+				B65B5A82239D3C7D0065CCBE /* Run Script(Carthage) */,
 			);
 			buildRules = (
 			);
@@ -125,36 +214,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65B5A81239D3B1F0065CCBE /* Cartfile in Resources */,
 				B65B5A6B239D36C00065CCBE /* LaunchScreen.storyboard in Resources */,
+				B65B5A7B239D39470065CCBE /* RxCollectionViewCell.xib in Resources */,
+				B65B5A76239D38D10065CCBE /* RxCollectionViewController.storyboard in Resources */,
 				B65B5A68239D36C00065CCBE /* Assets.xcassets in Resources */,
-				B65B5A66239D36BD0065CCBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B65B5A82239D3C7D0065CCBE /* Run Script(Carthage) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Differentiator.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+			);
+			name = "Run Script(Carthage)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B65B5A57239D36BD0065CCBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B65B5A63239D36BD0065CCBE /* ViewController.swift in Sources */,
+				B65B5A7F239D39870065CCBE /* PinterestLayout.swift in Sources */,
+				B65B5A7D239D39560065CCBE /* RxCollectionViewModel.swift in Sources */,
+				B65B5A7A239D39470065CCBE /* RxCollectionViewCell.swift in Sources */,
+				B65B5A74239D38C30065CCBE /* RxCollectionViewController.swift in Sources */,
 				B65B5A5F239D36BD0065CCBE /* AppDelegate.swift in Sources */,
-				B65B5A61239D36BD0065CCBE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B65B5A64239D36BD0065CCBE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B65B5A65239D36BD0065CCBE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B65B5A69239D36C00065CCBE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,7 +399,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4295L2DWK5;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxDataSourcesPinterest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakiyamak.RxDataSourcesPinterest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,7 +421,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4295L2DWK5;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxDataSourcesPinterest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakiyamak.RxDataSourcesPinterest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
